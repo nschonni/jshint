@@ -11,6 +11,3 @@ script:
 
 test: 
   - make test
-
-after_script:
-  - make cover
