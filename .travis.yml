@@ -9,5 +9,5 @@ before_script:
 script:
   - make rhino
 
-test: 
+after_script:
   - make test
