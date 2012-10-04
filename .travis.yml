@@ -7,4 +7,10 @@ before_script:
   - npm install expresso -g
 
 script:
-  - make
+  - make rhino
+
+test: 
+  - make test
+
+after_script:
+  - make cover
