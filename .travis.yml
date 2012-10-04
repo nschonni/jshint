@@ -12,4 +12,4 @@ script:
 
 after_script:
   - make test
-  - make cover
+  - node tests/helpers/coveraje.js
