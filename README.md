@@ -1,6 +1,8 @@
 JSHint, A Static Code Analysis Tool for JavaScript
 ==================================================
 
+[![Build Status](https://travis-ci.org/jshint/jshint.png)](https://travis-ci.org/jshint/jshint)
+
 JSHint is a community-driven tool to detect errors and potential problems in
 JavaScript code and to enforce your team's coding conventions.
 
