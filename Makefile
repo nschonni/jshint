@@ -16,7 +16,6 @@ test:
 
 cover:
 	@echo "Start coverage"
-	-@chmod +x "tests/helpers/coveraje.js"
 	@tests/helpers/coveraje.js
 
 clean:

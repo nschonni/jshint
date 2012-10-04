@@ -4,12 +4,10 @@ node_js:
   - 0.8
   - 0.9
 before_script: 
-  - npm install expresso -g
-  - npm install coveraje
+  - npm install expresso
 
 script:
   - make rhino
 
 after_script:
   - make test
-  - node tests/helpers/coveraje.js
